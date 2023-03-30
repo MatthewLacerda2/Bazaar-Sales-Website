@@ -1,0 +1,59 @@
+.card {
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 0.4em;
+}
+
+.card__descrição {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__botões {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card:visited {
+    text-decoration: none; color:white;
+}
+
+.descrição__titulo {
+    color: orange;
+    font-weight: 700;
+}
+
+.descrição__titulo-livro {
+    color: brown;
+    font-size: 19px;
+    font-weight: 700;
+    margin: 0.5em -5em;
+    width: 250px;
+}
+
+.descrição__texto {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0.5em -5.6em;
+}
+
+.descrição__imagem{
+    width: 35%;
+    margin: 0.2em 0.2em;
+}
+
+.botões {
+    display: flex;
+}
+
+.botões__item {
+    margin: 0em 0.5em;
+}
+
+.botões__ancora {
+    background-color: orange;
+    padding: 1em 2.2em;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
